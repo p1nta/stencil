@@ -6,6 +6,7 @@ import { Component, h } from '@stencil/core';
   shadow: true
 })
 export class AppHome {
+  private test: boolean;
 
   render() {
     return (
